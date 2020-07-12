@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.cadastramento, .agendamento{
+    margin: auto;
+}
+.cadastramento h2, .agendamento h2{
+    text-align: center;
+    color: #124E3F;
+    padding: 60px 0 20px 0
+    
+}
+form input, form textarea{
+    padding: 5px 0 5px 10px;
+
+}
+input:hover, textarea:hover{
+    background-color: #dddddd;
+    
+}
+.cadastramento legend, .agendamento legend{
+    color: #888888;
+    padding: 40px 0 3px 0;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web',sans-serif;
+}
+
+#usuario label, #endereco label{
+    font-size: 13pt;
+    margin-right: 10px;
+}
+
+form input{
+    margin-right: 10px;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+form select{
+    margin-right: 10px;
+    padding: 5px 0 5px 10px;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+#tNasc{
+    padding: 5px 20px 5px 20px;
+    color: #888;
+}
+form button{
+    font-size: 13pt;
+    color: #fff;
+    background: #124E3F;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    float: right;
+}
+#sexo{
+    font-size: 14pt;
+}
+#sexo input{
+    margin-left: 20px;
+}
+#usuario .col-md-0{
+    margin-right: 60px;
+    margin-left: 10px;
+}
